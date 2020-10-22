@@ -8,6 +8,19 @@ It's main features are:
 - ability to decide which items should be a constant requirement
 - signaling when a required item has less quantity than required (based on the editable requirement list)
 
+## Runing the app
+````bash
+cd api
+npm start
+````
+the server will start now on `localhost:8080`
+
+````bash
+cd web
+npm start
+````
+React will automaticaly open your default browser and render the page on `localhost:3000`
+
 ## Project structure
 
 ### API
